@@ -1,13 +1,13 @@
 package com.thoughtworks.rectangle;
 
 public class Rectangle {
-    private int lenght;
-    private int breath;
-    Rectangle(int length,int breath){
+    int lenght;
+    int breadth;
+    Rectangle(int length,int breadth){
         this.lenght = length;
-        this.breath = breath;
+        this.breadth = breadth;
     }
     int area(){
-        return lenght*breath;
+        return lenght*breadth;
     }
 }

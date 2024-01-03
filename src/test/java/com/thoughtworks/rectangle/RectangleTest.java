@@ -10,8 +10,8 @@ public class RectangleTest {
     @Test
     void shouldReturnAreaOf10WhenLengthIs5AndBreathIs2() {
         int length = 5;
-        int breath = 2;
-        Rectangle rectangle = new Rectangle(length,breath);
+        int breadth = 2;
+        Rectangle rectangle = new Rectangle(length,breadth);
         int area = rectangle.area();
         assertThat(area,equalTo(10));
     }
