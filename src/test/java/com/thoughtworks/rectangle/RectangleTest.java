@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class RectangleTest {
     @Test
-    void shouldReturn10WhenLengthIs5AndBreathIs2() {
+    void shouldReturnAreaOf10WhenLengthIs5AndBreathIs2() {
         int length = 5;
         int breath = 2;
         Rectangle rectangle = new Rectangle(length,breath);
