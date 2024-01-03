@@ -10,7 +10,4 @@ public class Rectangle {
     int area(){
         return lenght*breath;
     }
-    int findPerimeater(){
-        return 2*(lenght+breath);
-    }
 }
