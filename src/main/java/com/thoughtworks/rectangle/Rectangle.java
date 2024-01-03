@@ -7,10 +7,7 @@ public class Rectangle {
         this.lenght = length;
         this.breath = breath;
     }
-    int getLength(){
-        return lenght;
-    }
-    int findArea(){
+    int area(){
         return lenght*breath;
     }
     int findPerimeater(){

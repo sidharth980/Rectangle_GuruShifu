@@ -12,7 +12,7 @@ public class RectangleTest {
         int length = 5;
         int breath = 2;
         Rectangle rectangle = new Rectangle(length,breath);
-        int area = rectangle.findArea();
+        int area = rectangle.area();
         assertThat(area,equalTo(10));
     }
 }
